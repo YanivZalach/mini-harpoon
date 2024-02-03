@@ -1,0 +1,58 @@
+" File: doc/mini_harpoon.txt
+
+*mini_harpoon.txt* 
+
+How to install and use the mini-harpoon plugin.
+
+1. Installation                                     |mini-harpoon-installation|
+2. Commands and Usage                               |mini-harpoon-commands|
+3. Configuration                                    |mini-harpoon-configuration|
+4. License                                          |mini-harpoon-license|
+
+==============================================================================
+
+1. Installation                                     *mini-harpoon-installation*
+
+To install mini-harpoon, you can use a Vim plugin manager such as vim-plug,
+Vundle, or Pathogen. Here's how you can install using vim-plug:
+
+1. Add the following line to your Vim configuration file (usually ~/.vimrc
+   or ~/.config/nvim/init.vim):
+
+   ```vim
+   Plug 'YanivZalach/mini-harpoon'
+   ```
+
+2. Reload your Vim configuration or restart Vim.
+
+3. Run the `:PlugInstall` command to install the plugin.
+
+mini-harpoon will now be installed and ready to use.
+
+==============================================================================
+
+2. Commands and Usage                               *mini-harpoon-commands*
+
+mini-harpoon provides the following commands:
+
+- `SaveLocation`: Save the current cursor position for future navigation.
+- `GoToLocation {index}`: Navigate to the location saved at the specified index.
+- `OpenLocationFile`: Open the file containing the saved locations in a split window.
+
+To save the current location, use the `:SaveLocation` command.
+To navigate to a saved location, use the `:GoToLocation {index}` command.
+To open the file containing the saved locations, use the `:OpenLocationFile` command.
+
+==============================================================================
+
+3. Configuration                                    *mini-harpoon-configuration*
+
+mini-harpoon does not require any configuration. However, you can customize
+behavior by setting variables in your Vim configuration file (vimrc), and add keybindings to jump to specific index locations.
+
+==============================================================================
+
+4. License                                          *mini-harpoon-license*
+
+mini-harpoon is distributed under the MIT License. See the LICENSE file for
+details.
