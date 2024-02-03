@@ -37,7 +37,7 @@ nnoremap <leader>ha :SaveLocation<CR>
 - Going to wonted location
 ```vim
 " Going to location by index (start from 1 - easer with the keyboard)
-nnoremap <leader>hg :GoToLocation
+nnoremap <leader>hg :GoToLocation<space>
 ```
 
 - Opening the editable file list
@@ -48,6 +48,7 @@ nnoremap <leader>hj :OpenLocationFile<CR>
 
 - Opening the first 4 locations
 ```vim
+" Going to specific location
 nnoremap <leader>h1 :GoToLocation 1<CR>
 nnoremap <leader>h2 :GoToLocation 2<CR>
 nnoremap <leader>h3 :GoToLocation 3<CR>
