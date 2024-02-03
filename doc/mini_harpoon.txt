@@ -47,8 +47,35 @@ To open the file containing the saved locations, use the `:OpenLocationFile` com
 
 3. Configuration                                    *mini-harpoon-configuration*
 
-mini-harpoon does not require any configuration. However, you can customize
-behavior by setting variables in your Vim configuration file (vimrc), and add keybindings to jump to specific index locations.
+mini-harpoon can be configured with key mappings for ease of use:
+
+- **Saving file with ease**:
+  ```vim
+  " Adding Location to mini-harpoon
+  nnoremap <leader>ha :SaveLocation<CR>
+  ```
+
+- **Going to wanted location**:
+  ```vim
+  " Going to location by index (start from 1 - easier with the keyboard)
+  nnoremap <leader>hg :GoToLocation<space>
+  ```
+
+- **Opening the editable file list**:
+  ```vim
+  " Opening the file list
+  nnoremap <leader>hj :OpenLocationFile<CR>
+  ```
+
+- **Opening the first 4 locations**:
+  ```vim
+  nnoremap <leader>h1 :GoToLocation 1<CR>
+  nnoremap <leader>h2 :GoToLocation 2<CR>
+  nnoremap <leader>h3 :GoToLocation 3<CR>
+  nnoremap <leader>h4 :GoToLocation 4<CR>
+  ```
+
+Customize these mappings according to your preferences.
 
 ==============================================================================
 
