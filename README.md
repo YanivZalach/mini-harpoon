@@ -3,7 +3,7 @@
 ## ℹ️ Introduction
 Welcome to Mini Harpoon! This plugin enhances your Vim navigation experience by allowing you to save and quickly navigate to multiple locations within your projects.
 
-The plugin is taking inspiration from the [ThePrimeagen/harpoon](https://github.com/ThePrimeagen/harpoon) plugin but it is written in Vim script witch makes it compatible with both `NVIM` and `VIM`!
+The plugin is taking inspiration from the [ThePrimeagen/harpoon](https://github.com/ThePrimeagen/harpoon) plugin but it is written in Vim script which makes it compatible with both `NVIM` and `VIM`!
 
 ## 📦 Installation
 To install Mini Harpoon, simply add the following line to your Vim configuration file using your preferred plugin manager:
